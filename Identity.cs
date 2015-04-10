@@ -11,7 +11,7 @@ namespace RemovePigs
 
         public string Description
         {
-            get { return "Nonpermanently removes all pigs. Disable to get the pigs back. Requires [ARIS] Skylines Overwatch."; }
+            get { return "Nonpermanently removes all pigs. Disable to get the pigs back."; }
         }
     }
 }
