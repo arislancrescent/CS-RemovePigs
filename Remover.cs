@@ -81,7 +81,6 @@ namespace RemovePigs
                     }
 
                     SkylinesOverwatch.Settings.Instance.Enable.AnimalMonitor  = true;
-                    SkylinesOverwatch.Settings.Instance.Debug.AnimalMonitor   = true;
 
                     _initialized = true;
 
