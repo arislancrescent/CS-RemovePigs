@@ -26,7 +26,13 @@ namespace RemovePigs
 
         public void Log(string message)
         {
+            Debug.Log(String.Format("{0}: {1}", Settings.Instance.Tag, message));
+        }
+
+        public void NotifyPlayer(string message)
+        {
             DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("{0}: {1}", Settings.Instance.Tag, message));
+            Log(message);
         }
     }
 }
